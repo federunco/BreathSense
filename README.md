@@ -1,16 +1,10 @@
 <h1 align="center">BreathSense</h1>
 
 <div align="center">
-<img widht="256" height="256" src="Web Client/images/branding.png">
+<img height="75" src="Web Client/images/branding.png">
+<br><br>
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=federico.runco%40gmail.com&currency_code=EUR&source=url&item_name=BreathSense+project+support"><img widht="50" height="50" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"></a>
 
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_donations" />
-<input type="hidden" name="business" value="federico.runco@gmail.com" />
-<input type="hidden" name="item_name" value="BreathSense project support" />
-<input type="hidden" name="currency_code" value="USD" />
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-</form>
 </div>
 
 # Table of Contents

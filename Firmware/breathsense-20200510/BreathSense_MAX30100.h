@@ -77,6 +77,9 @@ class BreathSense_MAX30100 {
     uint8_t isFingerAttached();
     bool isHeartReateReady();
     float getRate();
+    uint8_t getSensorTemperature();
+    uint8_t getSensorRevisionID();
+    uint8_t getSensorPartID();
     
   private:
     MeanDiffFilter diffFilter;

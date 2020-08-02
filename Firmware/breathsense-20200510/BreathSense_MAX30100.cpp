@@ -75,6 +75,18 @@ void BreathSense_MAX30100::loop(){
   }
 }
 
+uint8_t BreathSense_MAX30100::getSensorTemperature(){
+  return readRegister(0x16);
+}
+
+uint8_t BreathSense_MAX30100::getSensorRevisionID(){
+  return readRegister(0xFE);
+}
+
+uint8_t BreathSense_MAX30100::getSensorPartID(){
+  return readRegister(0xFF);
+}
+
 bool BreathSense_MAX30100::isSPO2Ready(){
   return spo2Ready;
 }
